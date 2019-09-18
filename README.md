@@ -1,17 +1,19 @@
 # Reading-Task-RPC-Message-Protocol
 _Reading task in system integration_
 
-**DESCRIPTION**
+<h3>DESCRIPTION:pencil2:</h3>
 
-_**According the Remote Procedure Call (RPC) model of distributed computing a client makes a remote procedure call to a network server and receives a reply containing the results of the procedure's execution.
+**According the Remote Procedure Call (RPC) model of distributed computing a client makes a remote procedure call to a network server and receives a reply containing the results of the procedure's execution.
 In our demonstrative class exercises, we always assumed that both the call and reply messages have been transported without any errors, but this is not always the case.**
 
 **Actually, RPC implements RPC message protocol, which defines the format of the call message and the reply message.**
 
 **Being familiar with this format enables developers to control the validity of the messages, which the client and the server exchange. For example, if we know what is the RPC reply message that the client has received from a server, we can identify any reason for potential lack of expected result.**
 
-**Your task is to search Internet for the answer of the following questions about the RPC message protocol:
-If the request message has been accepted by the server, which information does the reply message provide?**_
+<h2>Tasks:clipboard:</h2>
+
+<h3>Your task is to search Internet for the answer of the following questions about the RPC message protocol:
+If the request message has been accepted by the server, which information does the reply message provide?</h3>
 
 The structure of a RPC message is as followed:
 
@@ -28,7 +30,7 @@ Replay message from an accepted request:
 
 <img src="https://github.com/JonasManley/Reading-Task-RPC-Message-Protocol/blob/master/Pictures/replay%20message%202.PNG" alt="UML" height="auto" width="auto" style="max-width:100%;">
 
-Which status code will the server generate, if it can not 'understand' the parameters, sent by the client?
+<h3>Which status code will the server generate, if it can not 'understand' the parameters, sent by the client?</h3>
 
 There’s 5 different status codes the server can use:
 
